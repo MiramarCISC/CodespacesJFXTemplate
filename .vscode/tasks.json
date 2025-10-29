@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run JavaFX (Codespaces/Linux)",
+      "type": "shell",
+      "command": "mvn -q -Dprism.order=sw javafx:run",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

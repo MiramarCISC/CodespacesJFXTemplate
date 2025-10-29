@@ -1,0 +1,36 @@
+{
+  "name": "DogApp",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "password": "vscode",
+      "webPort": "6080",
+      "vncPort": "5901"
+    },
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "25"
+    },
+    "ghcr.io/devcontainers/features/maven:1": {
+      "version": "latest"
+    }
+  },
+  "forwardPorts": [
+    6080,
+    5901
+  ],
+  "portsAttributes": {
+    "6080": {
+      "label": "Desktop"
+    },
+    "5901": {
+      "label": "VNC"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'Devcontainer ready'"
+}
