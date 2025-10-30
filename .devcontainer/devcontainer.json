@@ -1,5 +1,7 @@
 {
   "name": "DogApp",
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "password": "vscode",
