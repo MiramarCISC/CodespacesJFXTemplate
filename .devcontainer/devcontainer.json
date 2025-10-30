@@ -10,9 +10,6 @@
     },
     "ghcr.io/devcontainers/features/java:1": {
       "version": "25"
-    },
-    "ghcr.io/devcontainers/features/maven:1": {
-      "version": "latest"
     }
   },
   "forwardPorts": [
